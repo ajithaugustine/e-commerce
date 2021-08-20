@@ -1,0 +1,46 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:60px;
+    background-color: orange;
+}
+.Navbar .navlink{
+text-decoration: none;
+color: white;
+font-weight: 400;
+}
+
+.user p{
+    color: white;
+    transition: .1s ease;
+}
+
+.userlink{
+    margin: 0;
+    color: white;
+}
+.userlink:hover{
+    background-color: orange;
+    color: white;
+}
+.navlink{
+    transition: .5s ease;
+}
+.navlink:hover{
+    color:rgb(12, 11, 10);
+  
+}
+.user p:hover{
+    transform: scale(1.05,1.05);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+.logo{
+    font-family: Cambria;
+    transition: .3s ease;
+}
+.logo:hover{
+color: white;
+text-shadow: 1px 1px 5px black;
+}

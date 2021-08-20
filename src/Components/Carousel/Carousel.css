@@ -1,0 +1,12 @@
+img{
+    height: 400px;
+}
+@media (max-width:900px) {
+   img{
+    height: auto;
+   }
+}
+
+.carousel-item h5{
+    text-shadow: 1px 1px 4px black;
+}

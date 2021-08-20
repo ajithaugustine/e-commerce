@@ -1,0 +1,35 @@
+.signup{
+    min-height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.signupform{  
+    width: 280px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+   box-shadow: 1px 2px 4px black;
+   border-radius: 15px;
+}
+.signupform h3{
+    text-align: center;
+    color: orange;
+}
+.signupform p{
+    margin-top: 5px;
+    text-align: center;
+}
+.signupform .btn{
+width: 100%;
+margin: auto;
+ border: 1px solid orange;
+ color: orange;
+
+}
+.signupform .btn:hover{
+
+ background-color: orange;
+ color: white;
+
+}
